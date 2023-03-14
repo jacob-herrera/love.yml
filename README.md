@@ -4,6 +4,8 @@ Converts the [love-api](https://github.com/love2d-community/love-api) to a `love
 
 ## Usage
 
+If you're using VS Code the easiest way to use selene with your project it with the [extension](https://marketplace.visualstudio.com/items?itemName=Kampfkarren.selene-vscode)
+
 - Copy the [`love.yml`](https://raw.githubusercontent.com/jacob-herrera/love.yml/main/love.yml) file into your LÖVE project's directory.
 - In that same directory, modify or create the `selene.toml` file with the following: 
 ```toml
