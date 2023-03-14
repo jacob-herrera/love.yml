@@ -1,7 +1,6 @@
 local api = require("love_api")
-local inspect = require("inspect")
 
-local GITHUB_LINK = "http://LINK.HERE"
+local GITHUB_LINK = "https://github.com/jacob-herrera/love.yml"
 
 local enum_cache = {}
 local types_cache = {}
@@ -10,8 +9,6 @@ local types_alphabetical = {}
 local header_output = ""
 local globals_output = ""
 local _structs_output = "" -- unused
-
--- undocumented api??: https://github.com/love2d-community/love-api/issues/107
 
 local depth = 0 -- amount of indents
 local o = "" -- working output, will be overwritten throughout the program
