@@ -1,11 +1,11 @@
 # love.yml
 
-Converts the [love-api](https://github.com/love2d-community/love-api) to a `love.yml ` file for use with the [selene](https://github.com/Kampfkarren/selene) linter.
+Converts the [love-api](https://github.com/love2d-community/love-api) to a `love.yml` file for use with the [selene](https://github.com/Kampfkarren/selene) linter.
 
 ## Usage
 
 - Copy the [`love.yml`](https://raw.githubusercontent.com/jacob-herrera/love.yml/main/love.yml) file into your LÖVE project's directory.
-- In that same directory, modify the `selene.toml` file with the following: 
+- In that same directory, modify or create the `selene.toml` file with the following: 
 ```toml
 std="lua51+love"
 ```

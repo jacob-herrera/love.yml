@@ -2,3 +2,4 @@ love_api.lua
 modules
 .vscode
 selene.toml
+.gitignore
