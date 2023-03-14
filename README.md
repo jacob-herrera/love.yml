@@ -14,14 +14,14 @@ std="lua51+love"
 
 Building a `love.yml` file for an older version of the LÖVE API is very simple.
 
-- Clone the repo 
+- Clone the repo (or just copy [main.lua](https://raw.githubusercontent.com/jacob-herrera/love.yml/main/main.lua))
 ```
 git clone https://github.com/jacob-herrera/love.yml
 ```
 
 - Download an earlier version from the love-api [releases](https://github.com/love2d-community/love-api/releases)
 
-- Place the `love_api.lua` and `modules` folder from the love-api into the cloned repo
+- Place the `love_api.lua` and `modules` folder from the love-api into the repo
 
 - Run the lua file with:
 
